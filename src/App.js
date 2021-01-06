@@ -1,25 +1,8 @@
-import logo from './logo.svg';
-import './App.css';
+//oon comp valed alan appjs E
+import CountDown from './components/CountDown';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return <CountDown timeTillDate="05 26 2019, 6:00 am" timeFormat="MM DD YYYY, h:mm a"/>
 }
 
 export default App;
